@@ -42,7 +42,6 @@ http://localhost:8080/api/products/
 ~~~
 ![alt text](image.png)
 
-
 *** GET WITH LIMIT ***
 ~~~
 http://localhost:8080/api/products?limit=2
@@ -56,14 +55,66 @@ http://localhost:8080/api/products/65c3c3dc9f4f587f03702d27
 ~~~
 ![alt text](image-2.png)
 
+
 *** POST ADDING PRODUCT ***
 ~~~
 http://localhost:8080/api/products/
 ~~~
 ![alt text](image-3.png)
 
+
 *** PUT (update or modify) ***
 ~~~
 http://localhost:8080/api/products/65c38fa361c4b50ea3a967ee
 ~~~
 ![alt text](image-5.png)
+
+
+*** DELETE ***
+~~~
+http://localhost:8080/api/products/65cd149f5395807bae01c23d
+~~~
+![alt text](image-6.png)
+
+
+*** SHOW PRODUCTS HANDLEBARS & DB ***
+~~~
+http://localhost:8080/
+~~~
+![alt text](image-7.png)
+
+
+*** REALTIME PRODUCTS (add and delete) ***
+~~~
+http://localhost:8080/realtimeproducts
+~~~
+![alt text](image-8.png)
+
+
+*** CHAT WITH MONGO ATLAS ***
+~~~
+http://localhost:8080/chat
+~~~
+![alt text](image-9.png)
+![alt text](image-10.png)
+
+
+*** POST CART (creating new cart) ***
+~~~
+http://localhost:8080/api/carts/
+~~~
+![alt text](image-11.png)
+
+
+*** GET CART WITH PRODUCTS ***
+~~~
+http://localhost:8080/api/carts/65c3fe3f50b2ba8808589904
+~~~
+![alt text](image-12.png)
+
+
+*** POST (adding new product to cart, "quantity" is needed)**
+~~~
+http://localhost:8080/api/carts/65c755ca554811a89e0606e8/product/65c3c3dc9f4f587f03702d27
+~~~
+![alt text](image-13.png)

@@ -33,11 +33,8 @@ en FileSystem). El formato es: ✅
     - socket.io: ^4.7.4
     - mongoose: "^8.1.1"
   
+*** GET ***  
 ~~~
-localhost
+http://localhost:8080/api/products/
 ~~~
 
-```
-testing
-
-```

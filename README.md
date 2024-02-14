@@ -47,5 +47,23 @@ http://localhost:8080/api/products/
 ~~~
 http://localhost:8080/api/products?limit=2
 ~~~
-
 ![alt text](image-1.png)
+
+
+*** GET WITH ONLY ONE ID ***
+~~~
+http://localhost:8080/api/products/65c3c3dc9f4f587f03702d27
+~~~
+![alt text](image-2.png)
+
+*** POST ADDING PRODUCT ***
+~~~
+http://localhost:8080/api/products/
+~~~
+![alt text](image-3.png)
+
+*** PUT (update or modify) ***
+~~~
+http://localhost:8080/api/products/65c38fa361c4b50ea3a967ee
+~~~
+![alt text](image-5.png)

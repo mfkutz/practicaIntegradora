@@ -111,7 +111,7 @@ en FileSystem). El formato es: ✅
 
 {user:correoDelUsuario, message: mensaje del usuario}✅
 
-8- Corroborar la integridad del proyecto para que todo funcione como lo ha hecho hasta ahora.
+8- Corroborar la integridad del proyecto para que todo funcione como lo ha hecho hasta ahora.✅
 
 #DEPENDENCIES
     - express "^4.18.2"

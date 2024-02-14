@@ -40,4 +40,12 @@ en FileSystem). El formato es: ✅
 ~~~
 http://localhost:8080/api/products/
 ~~~
+![alt text](image.png)
 
+
+*** GET WITH LIMIT ***
+~~~
+http://localhost:8080/api/products?limit=2
+~~~
+
+![alt text](image-1.png)
